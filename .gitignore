@@ -4,3 +4,6 @@ target/
 *.DS_Store
 tags
 *.swp
+.bloop
+.metals
+project/.bloop
