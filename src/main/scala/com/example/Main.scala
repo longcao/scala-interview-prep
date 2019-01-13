@@ -1,9 +1,9 @@
 package com.example
 
-object Main extends App {
+object Main {
   def excite(s: String): String = s"$s!"
 
-  def main(): Unit = {
+  def main(args: Array[String]): Unit = {
     println(excite("Hello, world"))
   }
 }
